@@ -1,6 +1,9 @@
 @import '../../../assets/scss/styles.scss';
 
 .tableWrapperBlock{
+    height: 42.2vh;
+    overflow: auto;
+    
     table{
         font-size: 1.4rem;
         line-height: 2rem;

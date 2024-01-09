@@ -9,9 +9,14 @@ const Table = () => {
       <table>
         <thead>
           <th className={classes.orderIdHead}>Order ID</th>
-          <th className={classes.orderDateHead}>Order date <DropIcon width="7px" height="5px" /></th>
+          <th className={classes.orderDateHead}>
+            Order date <DropIcon width="7px" height="5px" />
+          </th>
           <th className={classes.orderAmountHead}>Order amount</th>
-          <th className={classes.orderFeesHead}>Transaction fees <img src={Info} alt="info" /> </th>
+          <th className={classes.orderFeesHead}>
+            Transaction fees{" "}
+            <img src={Info} alt="info" title="Transaction fees" />{" "}
+          </th>
         </thead>
         <tbody>
           {tableData.map((tableItem) => {

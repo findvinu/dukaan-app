@@ -3,7 +3,7 @@
 .sidebar {
   width: 204px;
   background-color: $accent-color;
-  height: 100vh;
+  height: calc(100vh - 2rem);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -11,10 +11,8 @@
 }
 
 .sidebarHeader {
-  display: flex;
-  align-items: center;
+  @include flex-space-beetween;
   padding: .85rem .85rem 0 .85rem;
-  justify-content: space-between;
   margin-bottom: 2.4rem;
 
   .sidebarHeaderInner{
@@ -69,9 +67,11 @@
   background-color: #353C53;
   border-radius: 4px;
   padding: .6rem 1.2rem;
-  max-width: 192px;
+  width: calc(192px - 24px);
   display: flex;
   align-items: center;
+  margin-left: 3px;
+  margin-bottom: 1rem;
 
   .footerText{
     margin-left: 1.2rem;

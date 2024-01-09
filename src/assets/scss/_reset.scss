@@ -41,3 +41,24 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquot
     cursor: pointer;
   }
       
+  /* Width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 6px; /* width of the scrollbar */
+  height: 12px; /* height of the scrollbar */
+}
+
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+/* Handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the handle */
+  border-radius: 6px; /* roundness of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the handle on hover */
+}

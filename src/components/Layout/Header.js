@@ -11,14 +11,28 @@ const Header = () => {
       <div className="paymentWrapper">
         <span className="paymentText">Payments</span>
         <div className="howItWorks">
-          <img src={HowIcon} alt="how it works" />
+          <img src={HowIcon} alt="how it works" title="how it works" />
           <span>How it works</span>
         </div>
       </div>
-      <Search placeholderText="Search features, tutorials, etc." className="headerSearch" />
+      <Search
+        placeholderText="Search features, tutorials, etc."
+        className="headerSearch"
+      />
       <div className="iconBtnWrapper">
-        <ButtonIcon type="icon-button" btnBg btnStyle="round"  icon={<AnnouncementIcon />} />  
-        <ButtonIcon type="icon-button" btnBg btnStyle="round"  icon={<DropIcon />}  className="button" />
+        <ButtonIcon
+          type="icon-button"
+          btnBg
+          btnStyle="round"
+          icon={<AnnouncementIcon />}
+        />
+        <ButtonIcon
+          type="icon-button"
+          btnBg
+          btnStyle="round"
+          icon={<DropIcon />}
+          className="button"
+        />
       </div>
     </div>
   );

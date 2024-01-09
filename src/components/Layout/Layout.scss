@@ -7,14 +7,11 @@
 
 .header {
   padding: 1.2rem 3.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include flex-space-beetween;
   background-color: $bg-white;
 
   & .paymentWrapper {
-    display: flex;
-    align-items: center;
+    @include d-flex-center;
 
     & .paymentText {
       margin-right: 1.6rem;
@@ -29,8 +26,7 @@
       line-height: 1.8rem;
       font-weight: 400;
       color: $text-secondary-color;
-      display: flex;
-      align-items: center;
+      @include d-flex-center;
 
       & span {
         margin-left: 0.6rem;
@@ -45,8 +41,7 @@
   }
 
   .iconBtnWrapper {
-    display: flex;
-    align-items: center;
+    @include d-flex-center;
     .button {
       margin-left: 1.2rem;
     }
@@ -66,9 +61,7 @@
     }
 
     .headingWrapper {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      @include flex-space-beetween;
       margin-bottom: 2.4rem;
 
       .heading {
@@ -82,9 +75,7 @@
 }
 
 .cardWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include flex-space-beetween;
   gap: 2rem;
 }
 
@@ -95,24 +86,22 @@
   border-radius: 8px;
 
   .tableSearchWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex-space-beetween;
     margin-bottom: 1rem;
-    
-    & .tableSearch{
-        border: 1px solid $borderColor;
-        height: 4rem;
-        border-radius: 4px;
-        width: 24.8rem;
 
-        & svg{
-            top: 1.2rem;
-        }
+    & .tableSearch {
+      border: 1px solid $borderColor;
+      height: 4rem;
+      border-radius: 4px;
+      width: 24.8rem;
 
-        .buttonWrapper{
-            display: flex;
-        }
+      & svg {
+        top: 1.2rem;
+      }   
+    }
+
+    .buttonWrapper {
+      display: flex;
     }
   }
 }
