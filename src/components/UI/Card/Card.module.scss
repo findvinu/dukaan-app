@@ -1,0 +1,25 @@
+@import '../../../assets/scss/styles.scss';
+
+.card {
+  box-shadow: $boxShadow;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: flex-start;  
+  border-radius: 4px;
+  background: $bg-white;
+  width: 100%;
+
+  & .cardText{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 1.6rem;
+  }
+
+  & .cardNumber{
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    font-weight: 500;
+  }
+}

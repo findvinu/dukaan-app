@@ -1,0 +1,12 @@
+.searchWrapper {
+  position: relative;
+
+  & .icon {
+    position: absolute;
+    top: 9px;
+    left: 16px;
+  }
+}
+.searchInput {
+  padding: 1rem 1.6rem 1rem 3.2em;
+}

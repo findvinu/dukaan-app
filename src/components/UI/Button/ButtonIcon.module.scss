@@ -1,0 +1,40 @@
+@import "../../../assets//scss/styles.scss";
+
+.iconButton {
+  width: 4rem;
+  height: 4rem;
+
+  &.round {
+    border-radius: 100%;
+  }
+
+  &.btnBG {
+    background-color: $secondary-color;
+  }
+
+  &.square{
+    height: 3.6rem;
+    width: 3.6rem;
+    border: 1px solid $borderColor;
+    border-radius: 4px;
+  }
+}
+
+.iconTextButton{
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    border: 1px solid $borderColor;
+    width: 7.9rem;
+    height: 3.6rem;
+    margin-right: 1.2rem;
+
+    &.square{
+        border: 1px solid $borderColor;
+        border-radius: 4px;
+      }
+
+      & svg{
+        margin-left: 1rem;
+      }
+}

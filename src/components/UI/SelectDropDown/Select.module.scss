@@ -1,0 +1,13 @@
+@import '../../../assets/scss/styles.scss';
+
+.select{
+    width: 137px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid $borderColor;
+    padding: 6px 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('../../../assets/images/selectArrow.svg') no-repeat 110px center;
+  }
