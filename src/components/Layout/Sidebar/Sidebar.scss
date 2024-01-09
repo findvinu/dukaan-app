@@ -12,10 +12,10 @@
 
 .sidebarHeader {
   @include flex-space-beetween;
-  padding: .85rem .85rem 0 .85rem;
+  padding: 0.85rem 0.85rem 0 0.85rem;
   margin-bottom: 2.4rem;
 
-  .sidebarHeaderInner{
+  .sidebarHeaderInner {
     display: flex;
   }
 
@@ -37,54 +37,55 @@
     color: $text-white-light-color;
     text-decoration: underline;
     cursor: pointer;
-    &:hover{
+    &:hover {
       text-decoration: none;
     }
   }
 }
 
-.sidebar-link{
+.sidebar-link {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2rem;
-  padding: .8rem 1.6rem;
+  padding: 0.8rem 1.6rem;
   display: flex;
   align-items: center;
   color: $text-white-light-color;
 
-  &:hover{
-    background: rgba(255, 255, 255, 0.10);
+  &:hover,
+  &.active {
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 4px;
     cursor: pointer;
   }
 
-  & .icon{
+  & .icon {
     padding-right: 1.2rem;
-  } 
+  }
 }
 
 .sidebarFooter {
-  background-color: #353C53;
+  background-color: #353c53;
   border-radius: 4px;
-  padding: .6rem 1.2rem;
+  padding: 0.6rem 1.2rem;
   width: calc(192px - 24px);
   display: flex;
   align-items: center;
   margin-left: 3px;
   margin-bottom: 1rem;
 
-  .footerText{
+  .footerText {
     margin-left: 1.2rem;
   }
 
-  .availableCredit{
+  .availableCredit {
     font-size: 1.3rem;
     line-height: 1.6rem;
     font-weight: 400;
-    color: #D7D8DD;
+    color: #d7d8dd;
   }
 
-  .availableAmount{
+  .availableAmount {
     font-size: 1.8rem;
     line-height: 2.4rem;
     font-weight: 500;

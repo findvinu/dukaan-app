@@ -8,7 +8,13 @@ const CreditIcon = ({ width = "36px", height = "36px", className }) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect width="36" height="36" rx="4" fill="currentColor" fillOpacity="0.1" />
+      <rect
+        width="36"
+        height="36"
+        rx="4"
+        fill="currentColor"
+        fillOpacity="0.1"
+      />
       <path
         fillRule="evenodd"
         clipRule="evenodd"

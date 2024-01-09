@@ -33,15 +33,29 @@ function App() {
               <h2 className="heading">Transactions | This Month</h2>
             </header>
             <div className="tableInnerWrapper">
-                <div className="tableSearchWrapper">
-                  <Search className="tableSearch" placeholderText="Search by order ID..." />
-                  <div className="buttonWrapper">
-                    <ButtonIcon width="79px" height="36px"  icon={<SortIcon />} btnStyle="square" type="text-icon-button"  btnTitle="Sort" />
-                    <ButtonIcon icon={<DownloadIcon />} btnStyle="square"  type="icon-button" />
-                  </div>
+              <div className="tableSearchWrapper">
+                <Search
+                  className="tableSearch"
+                  placeholderText="Search by order ID..."
+                />
+                <div className="buttonWrapper">
+                  <ButtonIcon
+                    width="79px"
+                    height="36px"
+                    icon={<SortIcon />}
+                    btnStyle="square"
+                    type="text-icon-button"
+                    btnTitle="Sort"
+                  />
+                  <ButtonIcon
+                    icon={<DownloadIcon />}
+                    btnStyle="square"
+                    type="icon-button"
+                  />
                 </div>
-                <Table />
-                <Pagination />
+              </div>
+              <Table />
+              <Pagination />
             </div>
           </article>
         </section>

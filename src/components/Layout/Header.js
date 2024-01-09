@@ -4,7 +4,6 @@ import DropIcon from "../../assets/svg-icons/drop-icon";
 import ButtonIcon from "../UI/Button/ButtonIcon";
 import Search from "../UI/SearchInput/Search";
 
-
 const Header = () => {
   return (
     <div className="header">

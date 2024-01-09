@@ -1,4 +1,4 @@
-import classes from './Select.module.scss';
+import classes from "./Select.module.scss";
 
 const Select = () => {
   return (
