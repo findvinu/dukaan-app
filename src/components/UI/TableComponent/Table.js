@@ -13,7 +13,9 @@ const Table = () => {
   useEffect(() => {
     const getDataFromApi = async () => {
       try {
-        const response = await axios.get("/api/table_data.json");
+        const response = await axios.get(
+          "https://findvinu.github.io/dukaan-app/api/table_data.json"
+        );
         setTableData(response.data);
         setIsLoading(false);
       } catch (error) {
