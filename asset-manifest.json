@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dukaan-app/static/css/main.21720e41.css",
+    "main.js": "/dukaan-app/static/js/main.fe21e79c.js",
+    "index.html": "/dukaan-app/index.html",
+    "static/media/selectArrow.svg": "/dukaan-app/static/media/selectArrow.a6407cd83682235ead8c.svg",
+    "static/media/arrow.svg": "/dukaan-app/static/media/arrow.0964decb79ed24be6a526a943570c834.svg",
+    "main.21720e41.css.map": "/dukaan-app/static/css/main.21720e41.css.map",
+    "main.fe21e79c.js.map": "/dukaan-app/static/js/main.fe21e79c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21720e41.css",
+    "static/js/main.fe21e79c.js"
+  ]
+}
