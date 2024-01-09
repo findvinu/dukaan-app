@@ -2,3 +2,12 @@
 @import "./variables";
 @import "./reset";
 @import "./mixin";
+
+
+.error{
+    color: #690000;
+}
+
+.loading{
+    @include d-flex-center;
+}
